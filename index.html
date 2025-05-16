@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>スロメモ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>スロメモ</h1>
+        </header>
+
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="機種名を入力して検索...">
+        </div>
+
+        <ul class="slot-list" id="slot-list">
+            <!-- スロット機種データは JavaScript で動的に生成 -->
+        </ul>
+
+        <div class="no-results" id="no-results">
+            検索結果がありません
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
